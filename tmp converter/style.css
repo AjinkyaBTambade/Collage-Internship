@@ -1,0 +1,80 @@
+
+.body{
+
+    background-color: antiquewhite;
+}
+.button{
+    background-color: rgb(235, 229, 53);
+    color:rgb(17, 15, 15);
+    height: auto;
+    width: 170px;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.button:hover{
+    box-shadow: -1px -1px 9px 4px;
+    color: rgb(10, 76, 138);
+}
+
+.btn{
+    padding-top: 82px;
+}
+.cover img{
+    background-size: cover;
+   }
+   
+.fa-clipboard{
+    position: absolute;
+    left: 95%;
+    top: 3%;
+    color:black;
+    font-size: 35px;
+}
+
+.fa-clipboard:hover{
+    color:rgb(53, 210, 230);
+ }
+.fa-cloud-sun{
+    position: absolute;
+    left: 89%;
+    top: 3%;
+    color:rgb(2, 3, 3);
+    font-size: 35px;
+ }
+
+ .fa-cloud-sun:hover{
+    color:rgb(12, 72, 212);
+ }
+
+ .fa-ellipsis-vertical{
+    position: absolute;
+    left: 2%;
+    top: 3%;
+    color:black;
+    font-size: 38px;
+ }
+
+ .fa-ellipsis-vertical:hover{
+    color:rgb(69, 196, 187);
+ }
+
+ label{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.container{
+    position: absolute;
+    top: 37%;
+    text-align: center;
+    left: 33%;
+}
+
+input{
+    border-color: rgb(10, 1, 18);
+    box-shadow: 2px 2px 2px 2px rgb(79, 95, 118);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

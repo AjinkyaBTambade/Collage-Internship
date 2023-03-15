@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compactible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Temperature Converter</title>
+        <link rel="stylesheet"  href="./style.css">
+        <script src="https://kit.fontawesome.com/8ffd88250d.js" 
+        crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="icon">
+            <i class="fa-solid fa-clipboard"></i>
+            <i class="fa-solid fa-cloud-sun"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+            
+        <div class="cover">
+            <img src="./wave.jpg" height="730" width="1500">
+           
+        <div class="container">
+
+                <label for="celsius">Celsius :</label>&nbsp;&nbsp;&nbsp;
+                <input id="celsius" type="text" placeholder="Enter Celsius">&nbsp;&nbsp;&nbsp;
+                <button class="button" onclick="convertFahrenheit()">Convert into Fahrenheit</button>
+                <br><br><br><br><br>
+
+            <label for="fahrenheit">Fahrenheit :</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="fahrenheit" type="text" placeholder="Enter Fahrenheit">&nbsp;&nbsp;&nbsp;
+            <button class="button" onclick="convertCelsius()">Convert into Celsius</button>
+            <br><br>
+
+            <div class="btn">
+                <button class="button" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        </div>
+        <script src="javascript.js"></script>
+        </div>
+    </body>
+</html>
