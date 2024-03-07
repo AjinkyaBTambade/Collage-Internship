@@ -1,11 +1,10 @@
-
-.body{
-
-    background-color: antiquewhite;
+body {
+    background-color: rgb(253, 251, 247);
 }
-.button{
-    background-color: rgb(235, 229, 53);
-    color:rgb(17, 15, 15);
+
+.button {
+    background-color: rgb(46, 41, 44);
+    color: rgb(250, 248, 248);
     height: auto;
     width: 170px;
     border: none;
@@ -13,66 +12,69 @@
     border-radius: 2px;
 }
 
-.button:hover{
+.button:hover {
     box-shadow: -1px -1px 9px 4px;
     color: rgb(10, 76, 138);
 }
 
-.btn{
+.btn {
     padding-top: 82px;
 }
-.cover img{
+
+.cover img {
     background-size: cover;
-   }
-   
-.fa-clipboard{
+}
+
+.fa-clipboard {
     position: absolute;
     left: 95%;
     top: 3%;
-    color:black;
+    color: black;
     font-size: 35px;
 }
 
-.fa-clipboard:hover{
-    color:rgb(53, 210, 230);
- }
-.fa-cloud-sun{
+.fa-clipboard:hover {
+    color: rgb(53, 210, 230);
+}
+
+.fa-cloud-sun {
     position: absolute;
     left: 89%;
     top: 3%;
-    color:rgb(2, 3, 3);
+    color: rgb(2, 3, 3);
     font-size: 35px;
- }
+}
 
- .fa-cloud-sun:hover{
-    color:rgb(12, 72, 212);
- }
+.fa-cloud-sun:hover {
+    color: rgb(12, 72, 212);
+}
 
- .fa-ellipsis-vertical{
+.fa-ellipsis-vertical {
     position: absolute;
     left: 2%;
     top: 3%;
-    color:black;
+    color: black;
     font-size: 38px;
- }
+}
 
- .fa-ellipsis-vertical:hover{
-    color:rgb(69, 196, 187);
- }
+.fa-ellipsis-vertical:hover {
+    color: rgb(69, 196, 187);
+}
 
- label{
+label {
     font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
 }
-.container{
+
+.container {
     position: absolute;
     top: 37%;
     text-align: center;
     left: 33%;
 }
 
-input{
+input {
     border-color: rgb(10, 1, 18);
     box-shadow: 2px 2px 2px 2px rgb(79, 95, 118);
     font-size: 15px;

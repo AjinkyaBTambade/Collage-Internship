@@ -1,158 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FileDrive landing page with two column layout</title>
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="./styles/style.css">
+        <!--========== SWIPER CSS ==========-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-  <!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
-</head>
-<body>
-<main class="fylo">
-  <nav class="navbar">
-    <div class="nav_logo_container">
-      <img src="./images/logo.png" alt="FileDrive_logo" class="nav_logo">
-    </div>
-    <div class="menu">
-      <a href="#">Features</a>
-      <a href="#">Team</a>
-      <a href="#">Sign In</a>
-    </div>
-  </nav>
-  <br/>
-  <section class="header">
-    <div class="header_img">
-      <img src="./images/illustration-1.svg" alt="File-storage-img" class="header_img">
-    </div>
-    <br/>
-    <div class="header_body">
-      <h1 class="header_title">All your files in one secure <br/><span> location, accessible anywhere.</span></h1>
-      <p class="header_description">FileDrive stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.In 2019, FileDrive started research on Filecoin and IPFS for decentralized data storage. 
-  The team was already looking for solutions to current problems in centralized storage such as privacy, security, 
-  and ownership of data. It quickly realized the benefits of using Filecoin as an incentive layer that ensured the 
-  persistence of important information on top of IPFS capabilities for content-addressability.
-More so, as an open-source storage marketplace, the Filecoin ecosystem counts on an important number
- of tools developed by its community as well as programs that make it easier for clients like FileDrive 
- to participate in the network. </p>
-  <div class="header_btns">
-    <div class="input">
-      <input type="text" placeholder="Enter your email...">
-    <p>please check your mail</p>
-    </div>
-  <div class="btn">
-    <button class="header_btn">Get Started</button>
-  </div>
-  </div>
-    </div>
-  </section>
+        <title>Responsive Landing Page Islands</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Travel</a>
+                
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Explore</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Destinations</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Hotels</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-  <section class="hero">
-    <div class="hero_img">
-      <img src="./images/illustration-2.svg" alt="hero_img">
-    </div>
-    <div class="hero_body">
-      <h2 class="hero_title">Stay productive, wherever you are</h2>
-      <div class="hero_descriptions">
-        <p class="hero_description">Never let location be an issue when accessing your files. FileDrive has you 
-  covered for all of your file storage needs.</p>
-  <br/>
-  <p class="hero_description">Securely share files and folders with friends, family and colleagues for 
-  live collaboration. No email attachments required!</p>
-      </div>
-      <div class="hero_btn_cta">
-<button class="hero_btn">
-    <p class="txt">See how FileDrive works</p> 
-    <span class="img">
-      <img src="./images/icon-arrow.svg" alt="Right_arrow_icon">
-    </span>
-  </button>
-</div>
-    </div>
+        <!--========== MAIN ==========-->
+        <main class='main'>
+            <div class="swiper-container gallery-top">
+                <div class="swiper-wrapper">
+                    <!--========== ISLANDS 1 ==========-->
+                    <section class="islands swiper-slide">
+                        <img src="assets/img/borabora.jpg" alt="" class="islands__bg">
 
- <section class="huddle_ceo">
-    <img src="./images/icon-quotes.svg" alt="Quotation_icon" class="quotes"/> 
-    <p class="fylo_description">FileDrive has improved our team productivity by an order of magnitude. Since 
-  making the switch our team has become a well-oiled collaboration machine.</p>
-  <div class="huddle_ceo_nav">
-    <div class="ceo">
-    <img src="./images/avatar-testimonial.jpg" alt="CEO_img" class="ceo_pic"/>
-  </div>
-  <div class="name">
-    <h3>Kyle Burton</h3>
-    <span>Founder & CEO, Huddle</span>
-  </div>
-  </div>
-  </section>
-    
-   
-  </section>
+                        <div class="islands__container bd-container">
+                            <div class="islands__data">
+                                <h2 class="islands__subtitle">Islands</h2>
+                                <h1 class="islands__title">Bora Bora</h1>
+                                <p class="islands__description">Small South Pacific island northwest of Tahiti in French Polynesia, surrounded by motus.</p>
+                                <a href="#" class="islands__button">Explore <i class='bx bx-right-arrow-alt islands__button-icon'></i></a>
+                            </div>
 
+                           
+                        </div>
+                    </section>
+        
+                    <!--========== ISLANDS 2 ==========-->
+                    <section class="islands swiper-slide">
+                        <img src="assets/img/bali.jpg" alt="" class="islands__bg">
 
+                        <div class="islands__container bd-container">
+                            <div class="islands__data">
+                                <h2 class="islands__subtitle">Islands</h2>
+                                <h1 class="islands__title">Bali</h1>
+                                <p class="islands__description">It is an Indonesian island known and beautiful for its lush active volcanic mountains.</p>
+                                <a href="#" class="islands__button">Explore <i class='bx bx-right-arrow-alt islands__button-icon'></i></a>
+                            </div>
 
-  <section class="started">
-    <div class="s_title">
-      <h2 class="started_title">Get early access today</h2>
-    <p class="started_description">It only takes a minute to sign up and our free starter tier is extremely generous. 
-  If you have any questions, our support team would be happy to help you.</p>
-    </div>
-  <div class="started_btns">
-    <input type="text" placeholder="email@example.com">
-    <p>please check your mail</p>
-  <button class="started_btn">Get Started For Free</button>
-  </div>
-  </section>
+                           
+                        </div>
+                    </section>
+                    
+                    <!--========== ISLANDS 3 ==========-->
+                    <section class="islands swiper-slide">
+                        <img src="assets/img/palawan.jpg" alt="" class="islands__bg">
 
+                        <div class="islands__container bd-container">
+                            <div class="islands__data">
+                                <h2 class="islands__subtitle">Islands</h2>
+                                <h1 class="islands__title">Palawan</h1>
+                                <p class="islands__description">Also known as La Paragua, it is the largest island in the province of Palawan.</p>
+                                <a href="#" class="islands__button">Explore <i class='bx bx-right-arrow-alt islands__button-icon'></i></a>
+                            </div>
 
-  <footer class="footer">
-    <div class="footer_hero">
-      <div class="fylo_logo">
-      <span><i class="fas fa-kaaba"></i></span>
-      <h2 class="logo_title">FileDrive</h2>
-    </div>
-    <div class="contact">
-      <img src="./images/icon-phone.svg" alt="phone_icon" class="phone_icon"/>
-      <span>Phone: +1-543-123-4567</span>
-    </div>
-    <div class="contact">
-      <img src="./images/icon-email.svg" alt="email_icon" class="email_icon"/>
-      <span>example@fylo.com</span>
-    </div>
-    </div>
-      <div class="menu_a">
-      <p>About Us</p>
-      <p>Jobs</p>
-      <p>Press</p>
-      <p>Blog</p>
-    </div>
-      <br/>
-        <div class="menu_b">
-        <p>Contact Us</p>
-        <p>Terms</p>
-        <p>Privacy</p>
-      </div>
-      <div class="social_media">
-      <i class="fab fa-facebook-f"></i>
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-instagram"></i>
-      </div>
-  </footer>
-</main>
+                </div>
+                
+                    </section>
 
-  
-</body>
+                    <!--========== ISLANDS POPUP ==========-->
+                    <div class="islands__popup" id="popup">
+                        <div>
+                            <div class="islands__popup-close" id="popup-close">
+                                <i class='bx bx-x'></i>
+                            </div>
+            
+                            <iframe class="islands__popup-video" src="https://www.youtube.com/embed/JrU6bsuNU7Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--========== CONTROLS ==========-->
+            <div class="controls gallery-thumbs">
+                <div class="controls__container swiper-wrapper">
+                    <img src="assets/img/borabora.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="assets/img/bali.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="assets/img/palawan.jpg" alt="" class="controls__img swiper-slide">
+                </div>
+            </div>
+        </main>
+
+        <!--========== GSAP ==========-->
+        <script src="assets/js/gsap.min.js"></script>
+
+        <!--========== SWIPER JS ==========-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
